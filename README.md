@@ -1,11 +1,11 @@
-# Intro to Databending
+<p align="center">
+[IMAGE PLACEHOLDER]
+</p>
 
 ## What's Databending?
-+ Edit one type of file with software not meant for editing that type of file
+Databending is the process of editing a file using software that is not meant to edit that type of file. This document is a basic introduction to editing images using audio software.
 
-## Tools For Databending
-+ Image editor (I use GIMP)
-+ Audio editor (I use Audacity)
+To follow along, you'll need an application for editing images, and an application for editing audio. I use [GIMP](https://www.gimp.org/) for images and [Audacity](https://www.audacityteam.org/) for audio. They're great, free, open-source, cross-platform tools, but your personal editors of choice will probably work too.
 
 ## Prepare An Image For Databending
 + If you used multiple layers while creating your image, make sure you merge them before exporting

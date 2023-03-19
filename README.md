@@ -39,15 +39,17 @@ I would also recommend that you open your image in GIMP and make sure that your 
 Here's where the magic happens.
 
 ### When You're Done
-1. Do File > Export > Export Audio
-2. Configure your export settings and click save
+1. Make sure Audacity only has one audio track
+2. Do File > Export > Export Audio
+3. Configure your export settings and click save
     1. File name &rarr; should be a .tiff file
     2. Save as type &rarr; Other uncompressed files
     3. Header &rarr; RAW (header-less)
     4. Encoding &rarr; U-Law
+    
+Try opening the new image in GIMP. If it works, congratulations! You just bent some data. If it doesn't work, you probably edited data that was too close to the start/end of the audio track.
 
 ## Postprocessing
-+ You have successfully databent an image
 + Depending on the effects used, your result may be very transparent
 + I layer the result on top of a black background, or sometimes the source image
 

@@ -6,7 +6,7 @@ To follow along, you'll need an application for editing images, and an applicati
 This is the image I will databend:
 
 <p align="center">
-[IMAGE PLACEHOLDER]
+  <img src="images/leaf.png" height="400px" />
 </p>
 
 ## Prepare an Image for Databending
@@ -51,7 +51,7 @@ Reduce mode will reduce any "noise" it finds in your image. Residue mode will re
 Here's what my source image looks like after Reduce mode:
 
 <p align="center">
-[IMAGE PLACEHOLDER]
+  <img src="images/leaf_reduce.png" height="400px" />
 </p>
 
 I have not done enough experiments to know what makes for a good Noise Profile. I almost always use snippets of audio from the Super Mario RPG OST because doing so suits my \~aesthetic\~.
@@ -75,11 +75,11 @@ Depending on the source image you used, the effects you applied, and your desire
 Some effects like Noise Reduction (_especially_ Residue) will make your result very transparent. In GIMP, you can layer the result image on top of the source image, or just a plain black background layer to see it better:
 
 <p align="center">
-[IMAGE PLACEHOLDER]
+  <img src="images/leaf_reduce_leaf.png" height="400px" />
 </p>
 
 <p align="center">
-[IMAGE PLACEHOLDER]
+  <img src="images/leaf_reduce_black.png" height="400px" />
 </p>
 
 ### Color
@@ -89,6 +89,6 @@ The way I make art, I usually databend grayscale images and then re-color them i
 3. Mess around with the Hue and Lightness settings until it looks cool
 
 <p align="center">
-[IMAGE PLACEHOLDER]
+  <img src="images/leaf_reduce_chroma.png" height="400px" />
 </p>
 

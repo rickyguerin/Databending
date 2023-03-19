@@ -40,10 +40,16 @@ In general, I would also recommend that you open your image in GIMP and make sur
   + If your exported data is shorter/longer than your imported data, it won't line up with the metadata, and your file will be unusable.
 
 ### Apply Effects
-Here's where the magic happens.
+Here's where the magic happens. Almost anything you select from Audacity's Effect menu is going to do some cool stuff to your image. Exploring all your options is part of the fun of databending, so I'll leave it up to you to experiment, but I do want to call out Noise Reduction specifically, because I think it's so cool that I use it in almost all of [my art pieces](https://www.instagram.com/oofy.doodle/)
+
+Noise Reduction will strip away parts of your image that match the current "Noise Profile". You can import another track into Audacity (this could be actual audio, or another image), select a portion of that track, and click "Get Noise Profile" from the Noise Reduction window to tell Audacity what "noise" you want to deal with.
+
+The "Reduce" mode will reduce any "noise" it finds in your image. The "Residue" mode will reduce anything that ISN'T "noise". Both are cool, but I usually end up using Residue mode in my art.
+
+I have not done enough experiments to know what makes for a good Noise Profile. I almost always use snippets of audio from the Super Mario RPG OST because doing so suits my \~aesthetic\~.
 
 ### When You're Done
-1. Make sure Audacity only has one audio track
+1. Make sure to delete any extra audio tracks from the Audacity project
 2. Do File > Export > Export Audio
 3. Configure your export settings and click save
     1. File name &rarr; should be a .tiff file
@@ -58,7 +64,7 @@ Try opening the new image in GIMP. If it works, congratulations! You just bent s
 ### Transparency
 Depending on the source image you used, the effects you applied, and your desired look, you may already be done. You can just re-export the image to a compressed file type like .png and be on your merry way.
 
-I generally find, though, that some post-processing is necessary. Some effects like Noise Reduction (especially Residue) will make your result very transparent. In GIMP, you can layer the result image on top of the source image, or just a plain black background layer to see it better.
+I generally find, though, that some post-processing is necessary. Some effects like Noise Reduction (_especially_ Residue) will make your result very transparent. In GIMP, you can layer the result image on top of the source image, or just a plain black background layer to see it better.
 
 <p align="center">
 [IMAGE PLACEHOLDER]

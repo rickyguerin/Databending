@@ -12,7 +12,7 @@ Any image you want to databend must be an **uncompressed file type**. I only use
 
 Additionally, your image file **shouldn't have multiple layers**. If you're databending a photo, you probably don't have to worry about this, but if your image file was composed from multiple layers in GIMP, you'll have to merge down to one layer before you export the file.
 
-In general, I would also recommend that you open your image in GIMP and make sure that your image has an **alpha channel**. This allows your databending result to have transparency, and will it easier to put together a cool final product in the Postprocessing section.
+In general, I would also recommend that you open your image in GIMP and make sure that your image has an **alpha channel**. This allows your databending result to have transparency, and will make it easier to put together a cool final product in the Postprocessing section.
 
 <p align="center">
 [IMAGE PLACEHOLDER]

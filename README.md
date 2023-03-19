@@ -42,9 +42,9 @@ In general, I would also recommend that you open your image in GIMP and make sur
 ### Apply Effects
 Here's where the magic happens. Almost anything you select from Audacity's Effect menu is going to do some cool stuff to your image. Exploring all your options is part of the fun of databending, so I'll leave it up to you to experiment, but I do want to call out Noise Reduction specifically, because I think it's so cool that I use it in almost all of [my art pieces](https://www.instagram.com/oofy.doodle/)
 
-Noise Reduction will strip away parts of your image that match the current "Noise Profile". You can import another track into Audacity (this could be actual audio, or another image), select a portion of that track, and click "Get Noise Profile" from the Noise Reduction window to tell Audacity what "noise" you want to deal with.
+Noise Reduction will strip away parts of your image that match the current "Noise Profile". You can import another track into Audacity (this could be actual audio, or another image), select a portion of that track, and click Get Noise Profile from the Noise Reduction window to tell Audacity what "noise" you want to deal with.
 
-The "Reduce" mode will reduce any "noise" it finds in your image. The "Residue" mode will reduce anything that ISN'T "noise". Both are cool, but I usually end up using Residue mode in my art.
+Reduce mode will reduce any "noise" it finds in your image. Residue mode will reduce anything that ISN'T "noise". Both are cool, but I usually end up using Residue mode in my art.
 
 I have not done enough experiments to know what makes for a good Noise Profile. I almost always use snippets of audio from the Super Mario RPG OST because doing so suits my \~aesthetic\~.
 

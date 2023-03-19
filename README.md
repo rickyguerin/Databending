@@ -44,6 +44,10 @@ Here's where the magic happens. Almost anything you select from Audacity's Effec
 
 Noise Reduction will strip away parts of your image that match the current "Noise Profile". You can import another track into Audacity (this could be actual audio, or another image), select a portion of that track, and click Get Noise Profile from the Noise Reduction window to tell Audacity what "noise" you want to deal with.
 
+**NOTE**: The selection you use for your noise profile has to come from a track that is mono and 44100hz.
++ If your track says stereo &rarr; Tracks > Mix > Mix Stereo Down to Mono
++ If your track doesn't say 44100hz &rarr; Tracks > Resample > 44100hz
+
 Reduce mode will reduce any "noise" it finds in your image. Residue mode will reduce anything that ISN'T "noise". Both are cool, but I usually end up using Residue mode in my art.
 
 I have not done enough experiments to know what makes for a good Noise Profile. I almost always use snippets of audio from the Super Mario RPG OST because doing so suits my \~aesthetic\~.

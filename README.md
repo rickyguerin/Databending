@@ -12,7 +12,11 @@ Any image you want to databend must be an **uncompressed file type**. I only use
 
 Additionally, your image file **shouldn't have multiple layers**. If you're databending a photo, you probably don't have to worry about this, but if your image file was composed from multiple layers in GIMP, you'll have to merge down to one layer before you export the file.
 
-I would also recommend that you open your image in GIMP and make sure that your image has an **alpha channel**. This allows your databending result to have transparency, and will give you more flexibility later on, in the Postprocessing section.
+In general, I would also recommend that you open your image in GIMP and make sure that your image has an **alpha channel**. This allows your databending result to have transparency, and will it easier to put together a cool final product in the Postprocessing section.
+
+<p align="center">
+[IMAGE PLACEHOLDER]
+</p>
 
 ## Databending Your Image
 
@@ -50,9 +54,27 @@ Here's where the magic happens.
 Try opening the new image in GIMP. If it works, congratulations! You just bent some data. If it doesn't work, you probably edited data that was too close to the start/end of the audio track.
 
 ## Postprocessing
-+ Depending on the effects used, your result may be very transparent
-+ I layer the result on top of a black background, or sometimes the source image
 
-## Misc Notes
+### Transparency
+Depending on the source image you used, the effects you applied, and your desired look, you may already be done. You can just re-export the image to a compressed file type like .png and be on your merry way.
 
-+ If you grayscale your image before databending, your end result will be a little less glitchy/grainy
+I generally find, though, that some post-processing is necessary. Some effects like Noise Reduction (especially Residue) will make your result very transparent. In GIMP, you can layer the result image on top of the source image, or just a plain black background layer to see it better.
+
+<p align="center">
+[IMAGE PLACEHOLDER]
+</p>
+
+<p align="center">
+[IMAGE PLACEHOLDER]
+</p>
+
+### Color
+The way I make art, I usually databend grayscale images and then re-color them in GIMP, making HEAVY use of the Hue-Chroma tool:
+1. Do Color > Hue-Chroma
+2. Turn the Chroma setting up to 100
+3. Mess around with the Hue and Lightness settings until it looks cool
+
+<p align="center">
+[IMAGE PLACEHOLDER]
+</p>
+

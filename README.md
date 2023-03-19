@@ -29,13 +29,14 @@ I would also recommend that you open your image in GIMP and make sure that your 
 
 ### What NOT To Do
 + I don't recommend "listening" to your image, it will probably sound like nails on a chalkboard
-+ Do NOT do anything that changes the LENGTH of the audio
 + Do NOT edit the audio at the beginning and end of the track
-  + There is special data stored at the beginning and end of an image file that tells the computer how to read the file. If you edit this special data, the exported image will be unusable.
+  + There is metadata stored at the beginning and end of an image file that tells the computer how to read the file. If you edit the metadata, the exported image will be unusable.
   + You should be able to edit everything except the first and last ~0.1 seconds of audio
++ Do NOT do anything to change the length of the audio
+  + If your exported data is shorter/longer than your imported data, it won't line up with the metadata, and your file will be unusable.
 
 ### Apply Effects
-+ Good effects are Noise Removal and Reverb
+Here's where the magic happens.
 
 ### When You're Done
 + Export as the same file type as your source image

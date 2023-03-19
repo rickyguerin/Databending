@@ -19,7 +19,7 @@ I would also recommend that you open your image in GIMP and make sure that your 
 ### Get Your image into Audacity
 1. Open Audacity
 2. Do File > Import > Raw Data and select your image
-3. Configure your import settings
+3. Configure your import settings and click open
     1. Encoding &rarr; U-Law
     2. Byte order &rarr; Big-endian
     3. Channels &rarr; Mono
@@ -39,7 +39,12 @@ I would also recommend that you open your image in GIMP and make sure that your 
 Here's where the magic happens.
 
 ### When You're Done
-+ Export as the same file type as your source image
+1. Do File > Export > Export Audio
+2. Configure your export settings and click save
+    1. File name &rarr; should be a .tiff file
+    2. Save as type &rarr; Other uncompressed files
+    3. Header &rarr; RAW (header-less)
+    4. Encoding &rarr; U-Law
 
 ## Postprocessing
 + You have successfully databent an image

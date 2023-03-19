@@ -1,9 +1,9 @@
+## What's Databending?
+Databending is the process of editing a file using software that is not meant to edit that type of file. This document is a basic introduction to editing images using audio software to achieve weird, glitchy visual effects.
+
 <p align="center">
 [IMAGE PLACEHOLDER]
 </p>
-
-## What's Databending?
-Databending is the process of editing a file using software that is not meant to edit that type of file. This document is a basic introduction to editing images using audio software to achieve weird, glitchy visual effects.
 
 To follow along, you'll need an application for editing images, and an application for editing audio. I use [GIMP](https://www.gimp.org/) for images and [Audacity](https://www.audacityteam.org/) for audio. They're great, free, open-source, cross-platform tools, but your personal editors of choice will probably work too.
 
@@ -61,10 +61,10 @@ Try opening the new image in GIMP. If it works, congratulations! You just bent s
 
 ## Postprocessing
 
-### Transparency
-Depending on the source image you used, the effects you applied, and your desired look, you may already be done. You can just re-export the image to a compressed file type like .png and be on your merry way.
+Depending on the source image you used, the effects you applied, and your desired look, you may already be done. You can just re-export the image to a compressed file type like .png and be on your merry way. I generally find, though, that some post-processing is necessary. 
 
-I generally find, though, that some post-processing is necessary. Some effects like Noise Reduction (_especially_ Residue) will make your result very transparent. In GIMP, you can layer the result image on top of the source image, or just a plain black background layer to see it better.
+### Transparency
+Some effects like Noise Reduction (_especially_ Residue) will make your result very transparent. In GIMP, you can layer the result image on top of the source image, or just a plain black background layer to see it better.
 
 <p align="center">
 [IMAGE PLACEHOLDER]
